@@ -35,5 +35,13 @@ anime({
         from: 'center'
     }),
     easing: 'easeInOutQuad',
-    loop: true,
+    loop: true
+});
+anime({
+    targets: '.div5',
+    translateX: 50,
+    backgroundColor: '#FFF',
+    borderRadius: ['0%', '50%'],
+    easing: 'easeInOutQuad',
+    loop: true
 });
