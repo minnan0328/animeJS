@@ -3,7 +3,7 @@ body {
 }
 
 body #anime_box {
-  padding: 24px;
+  padding: 6px 24px;
 }
 
 body #anime_box #card_content {
