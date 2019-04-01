@@ -130,3 +130,20 @@ body #anime_box #card_content #card .st2min {
   stroke: #FFF;
   stroke-width: 4;
 }
+
+body #anime_box #card_content #card .pathRect {
+  width: 10px;
+  height: 10px;
+  background-color: #FFF;
+  margin: -20px;
+}
+
+body #anime_box #card_content #card .pathBox {
+  width: 148px;
+  height: 148px;
+  margin: 15px -15px;
+}
+
+body #anime_box #card_content #card .pathBox .path {
+  stroke: #FFF;
+}

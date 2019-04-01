@@ -212,3 +212,14 @@ anime({
     endDelay: 500,
     loop: true
 });
+var path = anime.path('.path');
+
+anime({
+    targets: '.pathRect',
+    translateX: path('x'),
+    translateY: path('y'),
+    rotate: path('angle'),
+    easing: 'linear',
+    duration: 2000,
+    loop: true
+});
