@@ -2,6 +2,8 @@
 particlesJS.load('particles-js', './assets/data/particlesjs-config.json', function () {
     // console.log('callback - particles.js config loaded');
 });
+var elements = document.querySelectorAll('.DomNodeSelector');
+var path = anime.path('.path');
 anime({
     targets: '.cssSelector',
     translateY: 150,
@@ -13,8 +15,8 @@ anime({
     endDelay: 1000,
     easing: 'easeInOutQuad',
     loop: true
-});
-var elements = document.querySelectorAll('.DomNodeSelector');
+}
+);
 anime({
     targets: elements,
     translateY: 5,
@@ -27,7 +29,7 @@ anime({
     },
     backgroundColor: '#FFF'
     // direction: 'alternate'
-});
+})
 anime({
     targets: '.cssProrerties',
     translateX: 0,
@@ -220,6 +222,7 @@ anime({
     translateY: path('y'),
     rotate: path('angle'),
     easing: 'linear',
+    direction: 'alternate',
     duration: 2000,
     loop: true
 });

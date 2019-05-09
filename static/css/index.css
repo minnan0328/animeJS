@@ -58,7 +58,7 @@ body #anime_box #card_content #card .cssProrerties1 {
   border-radius: 50%;
 }
 
-body #anime_box #card_content #card .div3 {
+body #anime_box #card_content #card .points {
   margin: 45px 45px;
   width: 30px;
   height: 30px;
@@ -67,7 +67,7 @@ body #anime_box #card_content #card .div3 {
   align-content: center;
 }
 
-body #anime_box #card_content #card .div3 .div4 {
+body #anime_box #card_content #card .points .point {
   width: 4px;
   height: 4px;
   margin: 1px 1px;
