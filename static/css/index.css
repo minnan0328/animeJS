@@ -1,48 +1,25 @@
-body {
-  background-color: #000;
-}
-
-body #anime_box {
-  padding: 6px 24px;
-}
-
-body #anime_box #card_content {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-body #anime_box #card_content #card {
-  width: 121px;
-  height: 121px;
-  margin: 6px;
-  padding: 25px;
-  border: 2px #FFF solid;
-}
-
-body #anime_box #card_content #card .cssSelector {
+.cssSelector {
   margin: -25px 50px;
   width: 20px;
   height: 20px;
   background-color: #fff;
 }
 
-body #anime_box #card_content #card .DomNodeSelector {
+.DomNodeSelector {
   width: 20px;
   height: 20px;
   margin: 15px 50px;
   background-color: #000;
 }
 
-body #anime_box #card_content #card .cssTransforms {
+.cssTransforms {
   margin: 50px 50px;
   width: 20px;
   height: 20px;
   border: 2px #FFF solid;
 }
 
-body #anime_box #card_content #card .cssProrerties {
+.cssProrerties {
   margin: 10px 10px;
   width: 100px;
   height: 100px;
@@ -50,7 +27,7 @@ body #anime_box #card_content #card .cssProrerties {
   border-radius: 50%;
 }
 
-body #anime_box #card_content #card .cssProrerties1 {
+.cssProrerties1 {
   margin: 22px 25px;
   width: 50px;
   height: 50px;
@@ -58,7 +35,7 @@ body #anime_box #card_content #card .cssProrerties1 {
   border-radius: 50%;
 }
 
-body #anime_box #card_content #card .points {
+.points {
   margin: 45px 45px;
   width: 30px;
   height: 30px;
@@ -67,28 +44,28 @@ body #anime_box #card_content #card .points {
   align-content: center;
 }
 
-body #anime_box #card_content #card .points .point {
+.points .point {
   width: 4px;
   height: 4px;
   margin: 1px 1px;
   background-color: #FFF;
 }
 
-body #anime_box #card_content #card .SpecificPropParams {
+.SpecificPropParams {
   margin: 50px -25px;
   width: 20px;
   height: 20px;
   background-color: #000;
 }
 
-body #anime_box #card_content #card .polymorph {
+.polymorph {
   fill: none;
   stroke: #FFF;
   stroke-miterlimit: 10;
   stroke-width: 2;
 }
 
-body #anime_box #card_content #card .FunctionBasedValues3 {
+.FunctionBasedValues3 {
   width: 45px;
   height: 45px;
   margin: 40px 40px;
@@ -96,7 +73,7 @@ body #anime_box #card_content #card .FunctionBasedValues3 {
   box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.9);
 }
 
-body #anime_box #card_content #card .FunctionBasedValues2 {
+.FunctionBasedValues2 {
   width: 20px;
   height: 20px;
   margin: -70px 50px;
@@ -104,7 +81,7 @@ body #anime_box #card_content #card .FunctionBasedValues2 {
   box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.9);
 }
 
-body #anime_box #card_content #card .FunctionBasedValues1 {
+.FunctionBasedValues1 {
   width: 10px;
   height: 10px;
   margin: 55px 55px;
@@ -112,38 +89,61 @@ body #anime_box #card_content #card .FunctionBasedValues1 {
   box-shadow: 0px 0px 20px 2px rgba(255, 255, 255, 0.9);
 }
 
-body #anime_box #card_content #card .StepEasing {
+.StepEasing {
   width: 20px;
   height: 20px;
   background-color: #FFF;
   margin: -10px;
 }
 
-body #anime_box #card_content #card #particles-js {
+#particles-js {
   width: 175px;
   height: 175px;
   margin: -27px;
 }
 
-body #anime_box #card_content #card .st2min {
+.st2min {
   fill: #444;
   stroke: #FFF;
   stroke-width: 4;
 }
 
-body #anime_box #card_content #card .pathRect {
+.pathRect {
   width: 10px;
   height: 10px;
   background-color: #FFF;
   margin: -20px;
 }
 
-body #anime_box #card_content #card .pathBox {
+.pathBox {
   width: 148px;
   height: 148px;
   margin: 15px -15px;
 }
 
-body #anime_box #card_content #card .pathBox .path {
+.pathBox .path {
   stroke: #FFF;
+}
+
+body {
+  background-color: #000;
+}
+
+#anime_box {
+  padding: 6px 24px;
+}
+
+#anime_box #card_content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#anime_box #card_content #card {
+  width: 121px;
+  height: 121px;
+  margin: 6px;
+  padding: 25px;
+  border: 2px #FFF solid;
 }
